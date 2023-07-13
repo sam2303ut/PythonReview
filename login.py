@@ -22,7 +22,7 @@ def get_login_name(first, last, idnumber):
     login_name = set1 + set2 + set3
 
     # Return the login name.
-    return login_name
+    return login_name, ""
 
 # The valid_password function accepts a password as
 # an argument and returns either true or false to
